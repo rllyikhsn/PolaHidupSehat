@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pola Hidup Sehat</string>
+    <string name="cv_berfikir">Berfikir Positif</string>
+    <string name="cv_olahraga">Olahraga Teratur</string>
+    <string name="cv_definisi">Definisi Pola Hidup Sehat</string>
+    <string name="title_activity_definisi_pola_hidup">definisi_pola_hidup</string>
+    <string name="cv_df_definisi">Definisi</string>
+    <string name="cv_df_gizi">4 Pilar Gizi Seimbang</string>
+    <string name="cv_df_pola">Pola Makan Sehat</string>
+    <string name="cv_df_penjelasan">Penjelasan</string>
+
+    <!-- untuk ganti text -->
+    <string name="tv_judul_definisi">DEFINISI POLA HIDUP SEIMBANG</string>
+    <string name="tv_judul_gizi">4 PILAR GIZI SEIMBANG</string>
+    <string name="tv_judul_pola">POLA MAKAN SEHAT</string>
+    <string name="tv_judul_olahraga">OLAHRAGA TERATUR</string>
+    <string name="tv_judul_berfikir">BERFIKIR POSITIF</string>
+
+</resources>

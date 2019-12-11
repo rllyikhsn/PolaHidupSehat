@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rll_detail"
+    android:background="@drawable/background_detail"
+    tools:context=".detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_detail_judul"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:background="#8DB1A7A7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <WebView
+                android:id="@+id/wv_youtube"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/tv_detail_judul"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                tools:ignore="WebViewLayout" />
+
+            <WebView
+                android:id="@+id/wv_isi"
+                android:layout_below="@id/wv_youtube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                tools:ignore="WebViewLayout">
+
+            </WebView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
